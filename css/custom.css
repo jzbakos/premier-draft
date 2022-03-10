@@ -1,0 +1,55 @@
+/* Navigation
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.topnav {
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+  position:fixed;  
+  z-index:1;
+  width: 100%;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  background-color: #ffffff;
+  color: black;
+}
+
+.active {
+  background-color: #ddd;
+  color: rgb(0, 0, 0);
+}
+
+.nav-logo {
+    width: 50%;
+}
+
+/* Landing
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.landing {
+    height: 100vh;
+    background-image: url("../images/mobile_bg.png");
+}
+
+.landing-title {
+    margin-top: 65%;
+}
