@@ -10,6 +10,10 @@ body {
     color: #f0720d;
 }
 
+.light-gray {
+    color: rgb(133, 133, 133);
+}
+
 /* Navigation
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
@@ -24,7 +28,7 @@ body {
 .topnav #myLinks {
   display: none;
   text-align: center;
-  background-color: rgb(243, 243, 243);
+  background-color: rgba(243, 243, 243, 0.7);
 }
 
 .topnav a {
@@ -48,7 +52,7 @@ body {
 }
 
 .active {
-  background-color: #ddd;
+  background-color: green;
   color: rgb(0, 0, 0);
 }
 
@@ -62,6 +66,7 @@ body {
 .landing {
     height: 100vh;
     background-image: url("../images/mobile_bg.png");
+    text-align: center;
 }
 
 .landing-title {
@@ -71,6 +76,10 @@ body {
 
 /* Content
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.content {
+    padding-top: 200px;
+}
 
 .quote {
     text-align: center;

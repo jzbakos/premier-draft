@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8" />
+    <title>Our Designs</title>
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/skeleton.css" />
+    <link rel="stylesheet" href="./css/custom.css" />
+
+    <!-- Icons
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+  </head>
+  <body>
+    <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div class="container">
+      <div class="topnav">
+        <a href="#home"
+          ><img
+            src="./images/premier_elevator_logo_dark.webp"
+            alt=""
+            class="nav-logo"
+        /></a>
+        <div id="myLinks">
+          <a href="./index.html">HOME</a>
+          <a href="./index.html">ABOUT</a>
+          <a href="./designs.html">DESIGNS</a>
+          <a href="./contact.html">CONTACT</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+
+      <div class="row content">
+        <div class="one column">
+          <h1 class="section-heading">Designs</h1>
+        </div>
+      </div>
+    </div>
+
+    <!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+    </script>
+  </body>
+</html>
