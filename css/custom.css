@@ -1,3 +1,15 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:100,200,300,400,500,600,700,800");
+
+body {
+    font-family: "Roboto Slab", serif;
+}
+
+/* Colors
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.accent {
+    color: #f0720d;
+}
+
 /* Navigation
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
@@ -11,6 +23,8 @@
 
 .topnav #myLinks {
   display: none;
+  text-align: center;
+  background-color: rgb(243, 243, 243);
 }
 
 .topnav a {
@@ -52,4 +66,21 @@
 
 .landing-title {
     margin-top: 65%;
+    font-weight: 300;
+}
+
+/* Content
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.quote {
+    text-align: center;
+    margin: 70px 0;
+}
+
+.section-heading {
+    text-align: center;
+}
+
+.row p {
+    text-align: justify;
 }
