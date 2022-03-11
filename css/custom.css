@@ -47,6 +47,12 @@ body {
   top: 30px;
 }
 
+@media (min-width: 450px) {
+  .topnav a.icon {
+    top: 42px;
+  }
+}
+
 .topnav a:hover {
   background-color: #ffffff;
   color: black;
@@ -58,7 +64,13 @@ body {
 }
 
 .nav-logo {
-  width: 50%;
+  height: 55px;
+}
+
+@media (min-width: 450px) {
+  .nav-logo {
+    height: 75px;
+  }
 }
 
 /* Landing
