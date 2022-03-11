@@ -1,17 +1,17 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto+Slab:100,200,300,400,500,600,700,800");
 
 body {
-    font-family: "Roboto Slab", serif;
+  font-family: "Roboto Slab", serif;
 }
 
 /* Colors
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .accent {
-    color: #f0720d;
+  color: #f0720d;
 }
 
 .light-gray {
-    color: rgb(133, 133, 133);
+  color: rgb(133, 133, 133);
 }
 
 /* Navigation
@@ -20,8 +20,8 @@ body {
 .topnav {
   overflow: hidden;
   background-color: rgb(255, 255, 255);
-  position:fixed;  
-  z-index:1;
+  position: fixed;
+  z-index: 1;
   width: 100%;
 }
 
@@ -43,7 +43,8 @@ body {
   display: block;
   position: absolute;
   right: 0;
-  top: 0;
+  padding: 0 30px;
+  top: 30px;
 }
 
 .topnav a:hover {
@@ -57,39 +58,39 @@ body {
 }
 
 .nav-logo {
-    width: 50%;
+  width: 50%;
 }
 
 /* Landing
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .landing {
-    height: 100vh;
-    background-image: url("../images/mobile_bg.png");
-    text-align: center;
+  height: 100vh;
+  background-image: url("../images/mobile_bg.png");
+  text-align: center;
 }
 
 .landing-title {
-    margin-top: 65%;
-    font-weight: 300;
+  margin-top: 65%;
+  font-weight: 300;
 }
 
 /* Content
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .content {
-    padding-top: 200px;
+  padding-top: 150px;
 }
 
 .quote {
-    text-align: center;
-    margin: 70px 0;
+  text-align: center;
+  margin: 70px 0;
 }
 
 .section-heading {
-    text-align: center;
+  text-align: center;
 }
 
 .row p {
-    text-align: justify;
+  text-align: justify;
 }
