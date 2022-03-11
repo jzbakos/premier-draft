@@ -70,9 +70,26 @@ body {
   text-align: center;
 }
 
+@media (min-width: 450px) {
+  .landing {
+    height: 100vh;
+    background-image: url("../images/tablet_bg.png");
+    text-align: center;
+    background-size: 100% 100%
+  }
+}
+
 .landing-title {
   margin-top: 65%;
   font-weight: 300;
+}
+
+/* For devices larger than 450px */
+@media (min-width: 450px) {
+  .landing-title {
+    margin-top: 45%;
+    font-weight: 300;
+  }
 }
 
 /* Content
