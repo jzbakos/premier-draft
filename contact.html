@@ -32,26 +32,30 @@
   <body>
     <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <div class="container">
+    <div class="section">
       <div class="topnav">
-        <a href="#home"
-          ><img
-            src="./images/premier_elevator_logo_dark.webp"
-            alt=""
-            class="nav-logo"
-        /></a>
-        <div id="myLinks">
-          <a href="./index.html">HOME</a>
-          <a href="./index.html">ABOUT</a>
-          <a href="./designs.html">DESIGNS</a>
-          <a href="./contact.html">CONTACT</a>
+        <div class="container">
+          <a href="#home"
+            ><img
+              src="./images/premier_elevator_logo_dark.webp"
+              alt=""
+              class="nav-logo"
+          /></a>
+          <div id="myLinks">
+            <a href="./index.html">HOME</a>
+            <a href="./index.html">ABOUT</a>
+            <a href="./designs.html">DESIGNS</a>
+            <a href="./contact.html">CONTACT</a>
+          </div>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
         </div>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-          <i class="fa fa-bars"></i>
-        </a>
       </div>
+    </div>
 
-      <div class="content">
+    <div class="section content">
+      <div class="container">
         <form>
           <h1 class="section-heading">
             <span class="accent"><strong>WORK</strong></span> WITH US
@@ -101,7 +105,12 @@
                 placeholder="Write something..."
                 id="message"
               ></textarea>
-              <input class="button" style="width: 100%; margin-top: 30px;" type="submit" value="Submit" />
+              <input
+                class="button"
+                style="width: 100%; margin-top: 30px"
+                type="submit"
+                value="Submit"
+              />
             </div>
           </div>
         </form>

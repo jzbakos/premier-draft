@@ -29,7 +29,7 @@
 .container {
   position: relative;
   width: 100%;
-  max-width: 960px;
+  /* max-width: 960px; */
   margin: 0 auto;
   box-sizing: border-box;
 }
@@ -41,6 +41,7 @@
   padding: 15px 30px;
 }
 
+
 /* For devices larger than 400px */
 @media (min-width: 400px) {
   .container {
@@ -48,6 +49,7 @@
     padding: 0;
   }
 }
+
 
 /* For devices larger than 550px */
 @media (min-width: 550px) {
@@ -171,6 +173,14 @@
   .offset-by-one-half.column,
   .offset-by-one-half.columns {
     margin-left: 52%;
+  }
+}
+
+/* For devices larger than 750px */
+@media (min-width: 1000px) {
+  .container {
+    width: 55%;
+    padding: 0;
   }
 }
 
@@ -344,7 +354,7 @@ textarea,
 select {
   height: 38px;
   padding-bottom: 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
-  background-color: #fff;
+  background-color: rgba(247, 247, 247, 0);
   border: none;
   border-bottom: 2px solid rgb(32, 32, 32);
   box-shadow: none;

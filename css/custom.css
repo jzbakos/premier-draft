@@ -2,6 +2,7 @@
 
 body {
   font-family: "Roboto Slab", serif;
+  background-color: rgb(247, 247, 247);
 }
 
 /* Colors
@@ -19,7 +20,8 @@ body {
 
 .topnav {
   overflow: hidden;
-  background-color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(4px);
   position: fixed;
   z-index: 1;
   width: 100%;
@@ -78,16 +80,15 @@ body {
 
 .landing {
   height: 100vh;
-  background-image: url("../images/mobile_bg.png");
+  background-image: url("../images/desktop.png");
   text-align: center;
+  background-position: bottom;
+  background-repeat: no-repeat;
 }
 
-@media (min-width: 450px) {
+@media (min-width: 1000px) {
   .landing {
-    height: 100vh;
-    background-image: url("../images/tablet_bg.png");
-    text-align: center;
-    background-size: 100% 100%
+    text-align: left;
   }
 }
 
@@ -104,11 +105,29 @@ body {
   }
 }
 
+/* For devices larger than 450px */
+@media (min-width: 650px) {
+  .landing-title {
+    width: 100%;
+    margin-top: 35%;
+    font-weight: 300;
+  }
+}
+
+/* For devices larger than 1000px */
+@media (min-width: 1000px) {
+  .landing-title {
+    margin-top: 30%;
+    width: 50%;
+    font-weight: 300;
+  }
+}
+
 /* Content
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .content {
-  padding-top: 150px;
+  padding-top: 200px;
 }
 
 .quote {
@@ -122,4 +141,11 @@ body {
 
 .row p {
   text-align: justify;
+}
+
+@media (min-width: 750px) {
+  form {
+    width: 60%;
+    margin: auto;
+  }
 }
